@@ -16,7 +16,6 @@ window.PaginatorView = Backbone.View.extend({
     },
 
     prevPage: function () {
-        console.log('prev page...');
         this.setPaginatorControls();
         this.collection.fetch( {
             data: {
@@ -27,7 +26,6 @@ window.PaginatorView = Backbone.View.extend({
     },
 
     nextPage: function () {
-        console.log('next page...');
         this.setPaginatorControls();
         this.collection.fetch( {
             data: {
